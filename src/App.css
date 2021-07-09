@@ -1,0 +1,26 @@
+html,
+table {
+  font-size: 0.9rem;
+}
+button#btncustom {
+  border: none;
+  font-size: small;
+}
+.modal {
+  display: block;
+  opacity: 1;
+}
+.fade:not(.show) {
+  opacity: 1;
+}
+form input {
+  margin: 5px 0;
+}
+p + button + button {
+  margin: 0 10px 10px 0;
+}
+table tr td button.btn {
+  border: none;
+  font-size: xx-small;
+  margin-right: 5px;
+}
