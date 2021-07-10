@@ -151,20 +151,22 @@ export default function Dashboard() {
           setEdit={setEdit}
         />
       ) : null}
-      <button
-        id='btncustom'
-        className='btn btn-danger float-right'
-        onClick={clearAllData}
-      >
-        Delete all entries
-      </button>
-      <button
-        id='btncustom'
-        className='btn btn-success float-right'
-        onClick={enableClose}
-      >
-        Add entries
-      </button>
+      <div className='float-right btn-div'>
+        <button
+          id='btncustom'
+          className='btn btn-success'
+          onClick={enableClose}
+        >
+          Add entries
+        </button>
+        <button
+          id='btncustom'
+          className='btn btn-danger'
+          onClick={clearAllData}
+        >
+          Delete all entries
+        </button>
+      </div>
       <div className='table-responsive-md'>
         <table className='table table-bordered table-striped'>
           <tbody>

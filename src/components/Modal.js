@@ -92,13 +92,13 @@ export default function Modal({
             <button
               type='button'
               className='btn btn-secondary'
-              onClick={closeModal}
+              onClick={checkEdit}
             >
               Close
             </button>
-            <button type='button' className='btn btn-primary'>
+            {/* <button type='button' className='btn btn-primary'>
               Save changes
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

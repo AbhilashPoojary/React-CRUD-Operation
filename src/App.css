@@ -16,7 +16,7 @@ button#btncustom {
 form input {
   margin: 5px 0;
 }
-p + button + button {
+.btn-div button {
   margin: 0 10px 10px 0;
 }
 table tr td button.btn {
